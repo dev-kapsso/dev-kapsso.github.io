@@ -335,10 +335,12 @@ padding: 3vh 0;
 
 .about-p4{
   float: left;
+  margin-left: 10%;
   max-width: 37%;
   padding: 0 1rem;
   padding-left: 15vw;
-  height: calc(200px + 20vw);
+  height: calc(200px + 10vw);
+  padding-bottom: 10px;
 }
 
 .about-p4 .name{
@@ -359,14 +361,15 @@ padding: 3vh 0;
   font-style: normal;
   font-weight: 500; 
   font-size: calc(5px + 1vw);
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
 }
 
 .about-p5{
   float: left;
   max-width: 25%;
   padding: 0 1rem;
-  height: calc(200px + 20vw);
+  height: calc(200px + 10vw);
+  padding-bottom: 10px;
 }
 
 .about-p5 .name{
@@ -387,13 +390,42 @@ padding: 3vh 0;
   font-style: normal;
   font-weight: 500; 
   font-size: calc(5px + 1vw);
+  
+}
+
+.about-p6{
+  float: left;
+  max-width: 50%;
+  padding: 0 1rem;
+  padding-right: 15vw;
+  height: calc(200px + 10vw);
+}
+
+.about-p6 .name{
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #FFA800;
+  font-size: calc(5px + 1.5vw);
+}
+.about-p6 .job{
+  color: #00A3FF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: calc(5px + 1vw);
+}
+
+.about-p6 .disc{
+  font-style: normal;
+  font-weight: 500; 
+  font-size: calc(5px + 1vw);
   padding-bottom: 10px;
 }
 .contact-head{
-  height:calc(200px);
+  /* height:calc(200px); */
 }
 .contact-head span{
-  margin-top: calc(450px + 34.8vw);
+  margin-top: calc(400px + 35vw);
   font-size: calc(10px + 2vw);
   justify-content: center;
   text-align: center;
